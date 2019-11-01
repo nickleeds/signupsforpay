@@ -1,0 +1,97 @@
+.wrapper--card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+
+  @include breakpoint(md) {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // flex-wrap: wrap;
+    margin: 6.4rem auto 0 auto;
+    width: grid-width(10);
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+  padding: 4rem 2rem;
+  max-height: 22rem;
+  height: 22rem;
+  border-radius: 24px;
+  box-shadow: 0px 64px 64px -56px rgba(0,0,0,0.72);
+//   background:
+//     linear-gradient(-45deg, #23AE3F 0%, #0E2EEE 100%),
+//     url('../img/test@2x.jpg')no-repeat center center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  transition: all 300ms ease-out;
+  will-change: transform;
+
+  @include breakpoint(md) { width: 100%; }
+
+  @include breakpoint(mdl) {
+    width: 48%;
+    max-height: 24rem;
+    height: 24rem;
+  }
+}
+
+.card:nth-of-type(even) {
+  background:
+    linear-gradient(-45deg, #00919d 0%, #00919d 100%),
+    url('../img/bg02.jpg')no-repeat center center;    
+}
+.card:nth-of-type(even) { @include breakpoint(mdl) { margin-top: 6.4rem; }}
+.card:nth-of-type(even) { @include breakpoint(lg)  { margin-top: 12.4rem; }}
+
+.card:nth-of-type(odd) {
+  background:
+    linear-gradient(-45deg, #00919d 0%, #00919d 100%),
+    url('../img/bg01.jpg')no-repeat center center;
+}
+
+// .card:nth-of-type(even) {
+//   background:
+//     linear-gradient(-45deg, #00919d 0%, #00919d 100%),
+//     url('../img/bg02.jpg')no-repeat center center;
+// }
+// .card:nth-of-type(even) { @include breakpoint(mdl) { margin-top: 6.4rem; }}
+// .card:nth-of-type(even) { @include breakpoint(lg)  { margin-top: 12.4rem; }}
+
+// .card:nth-of-type(odd) {
+//   background:
+//     linear-gradient(-45deg, #23AE3F 0%, #0E2EEE 100%),
+//     url('../img/bg01.jpg')no-repeat center center;
+// }
+
+.card > article > h2 {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin: -20px 0 0 16px;
+}
+
+.card > article > h3 {
+  margin: 0 0 8px 16px;
+  color: #fff;
+}
+
+.card > article > p {
+  padding: 16px 16px;
+  border-radius: 12px;
+  background: #fff;
+  line-height: 1.4
+}
+
+// .card:nth-of-type(1) {
+//   @include breakpoint(md) { margin-right: 4rem; }
+// }
+//
+// .card:nth-of-type(even) {
+//   margin-top: 3.2rem;
+//   @include breakpoint(md) { margin-top: 12.4rem; }
+//   // @include breakpoint(md) { margin-top: 12.4rem; transform: translateY(12.4rem); }
+// }

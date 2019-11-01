@@ -1,0 +1,16 @@
+---
+title: Free Museum Visits
+date: 2019-09-03 21:27:00 Z
+permalink: Museum
+categories:
+- freebies
+postTitle: 
+icon: 
+description: Free Museum Visit for Bank of America debit & credit cardholders!
+image: https://i.imgur.com/9Y9323P.png
+layout: post
+---
+
+Bank of America has a program called ‘Museums On Us‘ that gives its debit & credit cardholders access to free museums on the first full weekend of every month. You need to bring your debit/credit card along with photo ID to gain access and you only get access for the cardholder for free, no guests.
+
+[List of Museums](https://about.bankofamerica.com/en-us/what-guides-us/arts-and-culture/partners.html#fbid=V68mYjzzYF3)

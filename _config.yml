@@ -1,0 +1,19 @@
+---
+title: Atl Deals
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: matt@ohiosveryown.co
+description: 'Atlanta Daily Deals (https://atl.deals) is a general repository for
+  all things finance and deals. The intended purpose of the site is to offer insights
+  and education on personal finances. '
+baseurl: 
+url: https://atl.deals
+twitter_username: cmykw_
+github_username: ohiosveryown
+markdown: kramdown

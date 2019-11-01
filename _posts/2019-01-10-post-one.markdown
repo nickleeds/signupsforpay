@@ -1,0 +1,26 @@
+---
+title: About Me
+date: 2019-01-10 21:09:00 Z
+permalink: "/about/"
+categories:
+- blog
+postTitle: About Me
+icon: 
+description: About Me
+image: http://i.imgur.com/0vfbmIq.jpg
+layout: post
+---
+
+## **Hello friends! Welcome to Atlanta Daily Deals!**
+
+This website is intended to be a guide for Atlanta residents to take advantage of free offers, deals, and even make a little side income.
+
+Now a little about me...I grew up in the Atlanta area and currently work in Investment Management in the Atlanta area. I did my first **Bank Bonus** in Feb 2017 and this little hobby took off. In the first year, I made more than $7,000 from bank bonuses alone and fell love with the hobby.
+
+Bank Bonuses take a lot of organization and I have put together [an Introduction](https://atl.deals/bankbonuses) for those interested.
+
+Outside of Bank Bonuses - **Free Stuff** and **Deals** are a couple of my favorite things. I will be posting these offers on the site as well.
+
+*Email: jenn@atl.deals*
+
+**Follow ATL Deals on [Twitter](https://twitter.com/atl_dealss) and [Instagram](https://www.instagram.com/atl.deals/) for real-time updates!**
