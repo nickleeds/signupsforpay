@@ -5,6 +5,4 @@ permalink: "/about-old/"
 layout: post
 ---
 
-![terris-me.jpg](/uploads/terris-me.jpg)
-
 This is the about page...
