@@ -5,7 +5,7 @@ categories:
 - intro
 image: 
 firstLine: Signup For Pay
-secondLine: "Bonuses Freebies and More \U0001F4B0"
+secondLine: "Bonuses and More \U0001F4B0"
 thirdLine: The best things in life are free ✨
 layout: default
 ---
