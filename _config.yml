@@ -1,5 +1,5 @@
 ---
-title: Atl Deals
+title: Signup For Pay
 timezone: UTC
 collections:
   posts:
@@ -8,12 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: matt@ohiosveryown.co
-description: 'Atlanta Daily Deals (https://atl.deals) is a general repository for
+email: 
+description: 'Signup For Pay (https://signupforpay.com) is a general repository for
   all things finance and deals. The intended purpose of the site is to offer insights
   and education on personal finances. '
 baseurl: 
-url: https://atl.deals
-twitter_username: cmykw_
-github_username: ohiosveryown
+url: https://signupforpay
+twitter_username: 
+github_username: nickleeds
 markdown: kramdown
