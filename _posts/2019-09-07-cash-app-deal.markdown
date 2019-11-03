@@ -5,7 +5,7 @@ permalink: cashapp
 categories:
 - new
 - signup-bonus
-description: "$5 bonus for creating cash app account""
+description: "$5 bonus for creating cash app account"
 image: "/uploads/8BC57E51-93FA-44C2-9373-08CF417664EB.jpeg"
 layout: post
 ---
