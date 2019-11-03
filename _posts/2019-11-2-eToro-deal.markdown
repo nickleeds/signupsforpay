@@ -14,4 +14,4 @@ eToro is a social trading platform on which you can invest in cryptocurrency and
 
 New users - Get $50 when you signup with the referral below and deposit $50
 
-[check it out](https://etoro.tw/33SvI7y)
+[check it out](https://etoro.tw/33SvI7y){:target="_blank"}

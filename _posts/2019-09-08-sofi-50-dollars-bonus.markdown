@@ -18,7 +18,7 @@ description: Get $50 when opening an account with SoFi!
 * It's an online bank just like Discover and Ally
 * No fees on this account!
 
-[Offer Link](https://www.sofi.com/share/money/2730987/)
+[Offer Link](https://www.sofi.com/share/money/2730987/){:target="_blank"}
 
 
 

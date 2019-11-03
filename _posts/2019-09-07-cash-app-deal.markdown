@@ -14,4 +14,4 @@ Cash App is a payment app similar to Venmo.
 
 New users - Get $5 when you download the app with the referral below and send money for the first time (amount doesn’t matter)
 
-[Download App](https://cash.me/app/QBTMSMM)
+[Download App](https://cash.me/app/QBTMSMM){:target="_blank"}
