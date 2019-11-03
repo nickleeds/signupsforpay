@@ -18,8 +18,8 @@ description: Get $50 when opening an account with SoFi!
 * It's an online bank just like Discover and Ally
 * No fees on this account!
 
-[Offer Link](https://www.sofi.com/share/money/2501161/)
+[Offer Link](https://www.sofi.com/share/money/2730987/)
 
 
 
-*If this bonus is not for you, [there's many more!](https://atl.deals/bank-bonus) If you're new to bank account bonuses, you can [learn more here!](https://atl.deals/bankbonuses)*
+*If this bonus is not for you, [there's many more!](https://signupforpay/bank-bonus) If you're new to bank account bonuses, you can [learn more here!](https://signupforpay/bankbonuses)*
