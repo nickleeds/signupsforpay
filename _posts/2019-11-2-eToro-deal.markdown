@@ -1,5 +1,5 @@
 ---
-title: "$50 bonus"
+title: "eToro - $50 signup bonus"
 date: 2019-11-02 17:11:00 Z
 permalink: eToro
 categories:
