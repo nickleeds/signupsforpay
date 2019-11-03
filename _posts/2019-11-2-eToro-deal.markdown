@@ -4,7 +4,7 @@ date: 2019-11-02 17:11:00 Z
 permalink: eToro
 categories:
 - new
-- deals
+- signup-bonus
 description: "$50 bonus for creating eToro account"
 image: "/uploads/etoro.jpg"
 layout: post

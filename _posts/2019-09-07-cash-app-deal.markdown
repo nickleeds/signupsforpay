@@ -4,7 +4,7 @@ date: 2019-09-07 17:11:00 Z
 permalink: cashapp
 categories:
 - new
-- deals
+- signup-bonus
 description: "$5 bonus for creating cash app account""
 image: "/uploads/8BC57E51-93FA-44C2-9373-08CF417664EB.jpeg"
 layout: post
