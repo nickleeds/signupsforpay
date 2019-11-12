@@ -17,5 +17,4 @@ url: https://signupforpay
 twitter_username: 
 github_username: nickleeds
 markdown: kramdown
-plugins:
-  -jekyll-seo-tag
+
