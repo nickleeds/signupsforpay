@@ -22,4 +22,4 @@ description: Get $50 when opening an account with SoFi!
 
 
 
-*If this bonus is not for you, [there's many more!](https://signupforpay/bank-bonus) If you're new to bank account bonuses, you can [learn more here!](https://signupforpay/bankbonuses)*
+*If this bonus is not for you, [there's many more!](https://signupforpay.com/bank-bonus) If you're new to bank account bonuses, you can [learn more here!](https://signupforpay/learn-more)*
