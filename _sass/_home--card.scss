@@ -51,7 +51,8 @@
 .card:nth-of-type(odd) {
   background:
     linear-gradient(-45deg, #00919d 0%, #00919d 100%),
-    url('../img/bg01.jpg')no-repeat center center;
+    // url('../img/bg01.jpg')no-repeat center center;
+    url('../uploads/etoro.jpg')no-repeat center center;
 }
 
 // .card:nth-of-type(even) {
