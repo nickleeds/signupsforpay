@@ -43,7 +43,8 @@
 .card:nth-of-type(even) {
   background:
     linear-gradient(-45deg, #00919d 0%, #00919d 100%),
-    url('../img/bg02.jpg')no-repeat center center;    
+    // url('../img/bg02.jpg')no-repeat center center;    
+    url('../uploads/etoro.jpg')no-repeat center center;
 }
 .card:nth-of-type(even) { @include breakpoint(mdl) { margin-top: 6.4rem; }}
 .card:nth-of-type(even) { @include breakpoint(lg)  { margin-top: 12.4rem; }}
