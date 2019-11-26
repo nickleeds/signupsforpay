@@ -4,7 +4,6 @@ date: 2019-11-02 17:11:00 Z
 permalink: aspiration-bank
 categories:
 - new
-- signup-bonus
 - bank-bonus
 description: "$25 bonus for creating Aspiration Bank account"
 image: "_uploads\summit-checking-account-app-advert-with-no-ATM-fees.jpg"
