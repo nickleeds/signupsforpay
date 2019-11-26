@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "Aspiration Bank - $25 signup bonus"
 date: 2019-11-02 17:11:00 Z
 permalink: aspiration-bank
@@ -17,4 +17,4 @@ New users - Get $25 cash and $25 towards charity when you signup with the referr
 
 [check it out](https://my.aspiration.com/welcome/DRAKF86XYW23ASHA){:target="_blank"}
 
-[Terms](https://my.aspiration.com/faq/Opening-an-Account%3EGetting-Started%3EWhat-is-your-referral-program-){:target="_blank"} -->
+[Terms](https://my.aspiration.com/faq/Opening-an-Account%3EGetting-Started%3EWhat-is-your-referral-program-){:target="_blank"}

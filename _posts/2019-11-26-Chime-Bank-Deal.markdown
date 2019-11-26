@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "Chime Bank - $50 signup bonus"
 date: 2019-11-02 17:11:00 Z
 permalink: chime-bank
@@ -23,4 +23,4 @@ They are running a promo where if you open an account and make a $200 direct dep
 * If you don't have cash app, you can also transfer in $200 from the following banks to fulfill the same requirements- American Express, Ally, Chase, Charles Schwab, Circle Pay App, Discover, TD Bank, Hancock Whitney, Wells Fargo, Huntington, PNC, Serve, SoFi, TD Bank, USAA, and U.S. Bank.
 
 
-[check it out](https://www.chimebank.com/r/nicholasleeds/){:target="_blank"} -->
+[check it out](https://www.chimebank.com/r/nicholasleeds/){:target="_blank"}
