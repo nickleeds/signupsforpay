@@ -4,7 +4,7 @@ date: 2019-11-26 17:11:00 Z
 permalink: discoverit
 categories:
 - new
-- signup-bonus
+- credit-card
 description: "$5 bonus for creating discover it account"
 image: "/uploads/8BC57E51-93FA-44C2-9373-08CF417664EB.jpeg"
 layout: post
