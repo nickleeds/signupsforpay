@@ -6,7 +6,7 @@ categories:
 - new
 - bank-bonus
 image: https://i.imgur.com/T1dOuok.jpg
-description: Get $50 when opening an account with SoFi!
+description: "Get $50 when opening an account with SoFi!"
 ---
 
 ![Bonus Details (2).png](/uploads/Bonus%20Details%20(2).png)
