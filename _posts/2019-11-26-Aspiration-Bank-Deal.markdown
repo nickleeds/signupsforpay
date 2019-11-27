@@ -1,5 +1,5 @@
 ---
-title: "Aspiration Bank - $25 signup bonus"
+title: Aspiration Bank - $25 signup bonus
 date: 2019-11-26 17:11:00 Z
 permalink: aspiration-bank
 categories:

@@ -1,5 +1,5 @@
 ---
-title: "Chime Bank - $50 signup bonus"
+title: Chime Bank - $50 signup bonus
 date: 2019-11-26 17:11:30 Z
 permalink: chime-bank
 categories:

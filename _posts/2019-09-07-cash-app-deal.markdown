@@ -1,5 +1,5 @@
 ---
-title: "Cash App $5 signup bonus"
+title: Cash App $5 signup bonus
 date: 2019-09-07 17:11:00 Z
 permalink: cashapp
 categories:
