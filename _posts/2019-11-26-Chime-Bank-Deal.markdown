@@ -1,7 +1,7 @@
 ---
 title: Chime Bank - $50 signup bonus
 date: 2019-11-26 17:11:30 Z
-permalink: chime-bank
+permalink: chimebank
 categories:
 - new
 - bank-bonus
