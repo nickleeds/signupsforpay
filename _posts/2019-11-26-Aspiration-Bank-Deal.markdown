@@ -6,7 +6,7 @@ categories:
 - new
 - bank-bonus
 description: "$25 bonus for creating Aspiration Bank account"
-image: "_uploads\summit-checking-account-app-advert-with-no-ATM-fees.jpg"
+image: "uploads/summit-checking-account-app-advert-with-no-ATM-fees.jpg"
 layout: post
 ---
 
