@@ -10,8 +10,6 @@ image: "_uploads\chime.jpg"
 layout: post
 ---
 
-{{ 3|star_rating }}
-
 Chime is a no fee online bank. 
 
 They are running a promo where if you open an account and make a $200 direct deposit, you get $50 credited to your account almost instantly. There are no catches, and you can close the account at any time fee free as soon as you register their debit card (gotta wait a few days to get it in the mail). 
