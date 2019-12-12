@@ -10,7 +10,7 @@ image: "_uploads\chime.jpg"
 layout: post
 ---
 
-
+{{ 3|star_rating }}
 
 Chime is a no fee online bank. 
 
