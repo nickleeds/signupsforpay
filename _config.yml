@@ -18,10 +18,3 @@ twitter_username:
 github_username: nickleeds
 markdown: kramdown
 
-
-# Collections
-collections:
-  book_reviews:
-    output: true
-    output_ext: .html
-    permalink: /book-reviews/:path/
