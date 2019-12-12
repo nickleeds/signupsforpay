@@ -15,6 +15,10 @@ Aspiration Bank is a 1% APY online-only bank that focuses on giving back to char
 New users - Get $25 cash and $25 towards charity when you signup with the referral below and deposit $50
 
 
+
+<span class="stars-container stars-{{ page.stars | times:20 | round: 0 }}" title="{{ page.stars }}/5">★★★★★</span></p>
+
+
 [check it out](https://my.aspiration.com/welcome/DRAKF86XYW23ASHA){:target="_blank"}
 
 [Terms](https://my.aspiration.com/faq/Opening-an-Account%3EGetting-Started%3EWhat-is-your-referral-program-){:target="_blank"}
