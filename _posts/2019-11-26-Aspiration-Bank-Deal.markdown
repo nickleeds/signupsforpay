@@ -5,6 +5,7 @@ permalink: aspirationbank
 categories:
 - new
 - bank-bonus
+stars: 4
 description: "$25 bonus for creating Aspiration Bank account"
 image: "uploads/summit-checking-account-app-advert-with-no-ATM-fees.jpg"
 layout: post
