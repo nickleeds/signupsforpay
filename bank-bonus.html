@@ -14,7 +14,6 @@ layout: default
 
     <article class="home--blog">
       <header>
-        <p>Rating:  <span class="stars-container stars-{{ review.stars | times:20 | round: 0 }}" title="{{ review.stars }}/5">★★★★★</span></p>
         <h6 class="mb-2 f-14">{{ post.date | date_to_long_string }}</h6>
         <h3 class="f-atlas f-30"><a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | truncate: 74 }}</a></h3>
       </header>
