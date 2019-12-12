@@ -16,7 +16,7 @@ New users - Get $25 cash and $25 towards charity when you signup with the referr
 
 
 
-<span class="stars-container stars-{{ page.stars | times:20 | round: 0 }}" title="{{ page.stars }}/5">★★★★★</span></p>
+<span class="stars-container stars-{{ page.stars | times:20 | round: 0 }}" title="{{ page.stars }}/5">★★★★★</span>
 
 
 [check it out](https://my.aspiration.com/welcome/DRAKF86XYW23ASHA){:target="_blank"}
