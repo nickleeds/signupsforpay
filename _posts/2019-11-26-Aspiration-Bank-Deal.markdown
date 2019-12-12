@@ -11,6 +11,9 @@ image: "uploads/summit-checking-account-app-advert-with-no-ATM-fees.jpg"
 layout: post
 ---
 
+<p>Rating:  <span class="stars-container stars-{{ review.stars | times:20 | round: 0 }}" title="{{ review.stars }}/5">★★★★★</span></p>
+
+
 Aspiration Bank is a 1% APY online-only bank that focuses on giving back to charities around the world. 
 
 New users - Get $25 cash and $25 towards charity when you signup with the referral below and deposit $50
