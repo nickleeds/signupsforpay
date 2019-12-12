@@ -8,6 +8,7 @@ categories:
 description: "$25 bonus for creating Aspiration Bank account"
 image: "uploads/summit-checking-account-app-advert-with-no-ATM-fees.jpg"
 layout: post
+stars: 3
 ---
 
 Aspiration Bank is a 1% APY online-only bank that focuses on giving back to charities around the world. 
