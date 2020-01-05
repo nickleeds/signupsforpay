@@ -197,7 +197,7 @@ header.masthead .overlay {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 50px 0 ;
+  padding: 100px 0 75px;
   color: white;
 }
 
@@ -205,7 +205,7 @@ header.masthead .site-heading {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 75px 0 ;
+    padding: 100px 0 75px;
   }
 }
 
@@ -216,8 +216,8 @@ header.masthead .site-heading {
 
 header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
-  font-size: 40px;
-  margin-top: 10px;
+  font-size: 50px;
+  margin-top: 0;
 }
 
 header.masthead .page-heading .subheading,
@@ -404,14 +404,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0DD954;
-  border-color: #177337;
+  background-color: #0085A1;
+  border-color: #0085A1;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #0DD954 !important;
-  border-color: #177337 !important;
+  background-color: #00657b !important;
+  border-color: #00657b !important;
 }
 
 .btn-lg {
