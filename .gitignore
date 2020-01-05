@@ -1,5 +1,1 @@
-_archive
-_build
-_site
-.sass-cache
-.jekyll-metadata
+node_modules

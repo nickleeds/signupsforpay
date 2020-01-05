@@ -1,18 +1,204 @@
----
-title: "Signup for Pay \U0001F4B3\U0001F4B5"
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.min.js"></script>
+	<head>
 
-<!-- my intro to let you know - intro section -->
-{% include home/section--intro.html %}
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-<!-- swipe that thang - cards section -->
-{% include home/section--card.html %}
+		<title>Signup For Pay</title>
 
-<!-- talk that talk - blog section -->
-{% include home/section--blog.html %}
+		<!-- Custom Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 
-<!-- check my footwork - footer section -->
-{% include footer.html %}
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom fonts for this template -->
+		<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+		<!-- jQuery CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Custom styles for this template -->
+		<!-- <link href="css/clean-blog.min.css" rel="stylesheet"> -->
+		<link href="css/clean-blog.css" rel="stylesheet">
+
+	</head>
+	<style type="text/css">
+		kbd {
+			background-color: #0085a1;
+			/*font-size: 12px;
+			font-weight: 800;
+		  	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;*/
+		}
+	</style>
+
+	<body>
+
+		<!--Navigation bar-->
+		<div id="nav-placeholder"></div>
+
+		<!-- Page Header -->
+		<header class="masthead" style="
+		background: rgb(12,242,93);
+		background: radial-gradient(circle, rgba(12,242,93,1) 0%, rgba(23,115,55,1) 100%);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-10 mx-auto">
+						<div class="site-heading">
+							<h1>Bonuses and More</h1>
+							<span class="subheading"><text id="dynamic-text"></text></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Main Content -->
+		<div class="container">
+
+			<div class="row">
+
+				<!-- Blog Entries Column -->
+				<div class="col-md-8">
+
+					<h1 class="my-4" id="blog-title">Blog Posts
+						<!-- <small>Secondary Text</small> -->
+					</h1>
+
+					<div id="card-list-placeholder"></div>
+
+					<!-- Pagination -->
+					<ul class="pagination justify-content-center mb-4" id="paginator">
+						<div id="paginator-placeholder"></div>
+						<!-- <li class="page-item" id="older_button">
+							<a class="page-link" href="javascript:older_blog()">&larr; Older</a>
+						</li>
+						<li class="page-item" id="newer_button">
+							<a class="page-link" href="javascript:newer_blog()">Newer &rarr;</a>
+						</li> -->
+					</ul>
+
+				</div>
+
+				<!-- Sidebar Widgets Column -->
+				<div class="col-md-4">
+
+					<!-- Search Widget -->
+					<div class="card my-4">
+						<h5 class="card-header">Search</h5>
+						<div class="card-body">
+							<div class="input-group mb-3">
+								<input type="text" class="form-control" placeholder="Search for ..." name="search-input" onkeyup="javascript:on_keyup(event)">
+								<div class="input-group-append">
+									<button class="icon" name="search-btn" onclick="javascript:on_search(document.getElementsByName('search-input')[0].value)"><i class="fa fa-search"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Categories Widget -->
+					<div class="card my-4">
+						<h5 class="card-header">Categories</h5>
+						<div class="card-body">
+							<div class="row">
+								<div class="col-lg-6">
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href='javascript:on_tag("Web Design")'>Web Design</a>
+										</li>
+										<li>
+											<a href='javascript:on_tag("HTML")'>HTML</a>
+										</li>
+										<li>
+											<a href='javascript:on_tag("lalala")'>lalala</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-lg-6">
+									<ul class="list-unstyled mb-0">
+										<li>
+											<a href='javascript:on_tag("JavaScript")'>JavaScript</a>
+										</li>
+										<li>
+											<a href='javascript:on_tag("CSS")'>CSS</a>
+										</li>
+										<li>
+											<a href='javascript:on_tag("Tutorials")'>Tutorials</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Side Widget -->
+					<div class="card my-4">
+						<h5 class="card-header">Side Widget</h5>
+						<div class="card-body">
+							You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- /.row -->
+
+		</div>
+		<!-- /.container -->
+
+		<hr>
+
+		<!--Footer-->
+		<div id="footer-placeholder"></div>
+
+		<!-- Header and footer scripts -->
+		<script>
+			$(function(){
+				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
+
+		<script>
+			$(function(){
+				$("#footer-placeholder").load("footer.html");
+			});
+		</script>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Custom scripts for this template -->
+		<script src="js/clean-blog.min.js"></script>
+
+		<!-- dynamic typing -->
+		<script src = "js/typed.min.js"></script>
+		<script>
+		  $(function(){
+		    $("#dynamic-text").typed({
+		      strings: ["Free Stocks.", "Free Money", "Free Points.", "Free Stuff.", "Free Giftcards", "Free Food", "Free Crypto"],
+		      typeSpeed: 150,
+		      startDelay: 10,
+		      showCursor: true,
+		      shuffle: true,
+		      loop:true
+		    });
+		  });
+		</script>
+
+		<!-- Posts -->
+		<script src="js/blog-bundle.min.js"></script>
+
+	</body>
+
+</html>
