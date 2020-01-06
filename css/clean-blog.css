@@ -177,7 +177,6 @@ img::-moz-selection {
 
 header.masthead {
   margin-bottom: 50px;
-  margin-top: 50px;
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
@@ -192,13 +191,13 @@ header.masthead .overlay {
   height: 100%;
   width: 100%;
   background-color: #212529;
-  opacity: 0.35;
+  opacity: 0.5;
 }
 
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 750px 0 40px;
+  padding: 100px 0 75px;
   color: white;
 }
 
