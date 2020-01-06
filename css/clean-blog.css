@@ -177,6 +177,7 @@ img::-moz-selection {
 
 header.masthead {
   margin-bottom: 50px;
+  margin-top: 50px;
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
@@ -191,13 +192,13 @@ header.masthead .overlay {
   height: 100%;
   width: 100%;
   background-color: #212529;
-  opacity: 0.5;
+  opacity: 0.35;
 }
 
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 100px 0 75px;
+  padding: 75px 0 40px;
   color: white;
 }
 
@@ -404,14 +405,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #177337;
+  border-color: #177337;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #0DD954 !important;
+  border-color: #0DD954 !important;
 }
 
 .btn-lg {
