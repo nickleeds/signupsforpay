@@ -404,14 +404,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #177337;
-  border-color: #177337;
+  background-color: #0DD954;
+  border-color: #0DD954;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #0DD954 !important;
-  border-color: #0DD954 !important;
+  background-color: #177337 !important;
+  border-color: #177337 !important;
 }
 
 .btn-lg {
