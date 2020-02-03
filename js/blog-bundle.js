@@ -88,7 +88,7 @@ function init_page(){
 
 // function to find all the blog posts
 function search_blog() {
-	var files = ["2019_01_23_sample_post","2019_05_21_sample_post","2019_05_23_sample_post","2019_12_01_sample_post","2020_02_03_Binance_US","default.jpg"];
+	var files = ["2020_02_03_Binance_US","default.jpg"];
 
 	for(var i in files) {
 		if(path.extname(files[i]) === "") {
