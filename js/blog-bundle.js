@@ -198,9 +198,9 @@ function load_card(content,file,i) {
 						htmlDoc.getElementById("title").childNodes[0].nodeValue+
 						'</h2>';
 		// // add subheading
-		// document.getElementById('post_'+i.toString()).innerHTML += '<p class="card-text">'+
-		// 															htmlDoc.getElementById("subheading").childNodes[0].nodeValue+
-		// 															'</p>';
+		document.getElementById('post_'+i.toString()).innerHTML += '<p class="card-text">'+
+																	htmlDoc.getElementById("subheading").childNodes[0].nodeValue+
+																	'</p>';
 
 		// add hyperlink
 		card.innerHTML += '<a href="'+
