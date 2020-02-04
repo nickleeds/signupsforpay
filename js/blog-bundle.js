@@ -188,6 +188,20 @@ function load_card(content,file,i) {
 		var date = file.slice(8,18);
 		date = date.split("_");
 
+		// // add image
+		// card.innerHTML += '<img class="card-img-top" src="'+
+		// 				image+
+		// 				'" alt="Card image cap"/>'; //http://placehold.it/750x300
+		// // add title
+		// card.innerHTML += '<div class="card-body">'+
+		// 			   	'<h2 class="card-title" align-items-center>'+
+		// 				htmlDoc.getElementById("title").childNodes[0].nodeValue+
+		// 				'</h2>';
+		// // // add subheading
+		// document.getElementById('post_'+i.toString()).innerHTML += '<p class="card-text">'+
+		// 															htmlDoc.getElementById("subheading").childNodes[0].nodeValue+
+		// 															'</p>';
+
 		// add image
 		card.innerHTML += '<img class="card-img-top" src="'+
 						image+
@@ -195,12 +209,13 @@ function load_card(content,file,i) {
 		// add title
 		card.innerHTML += '<div class="card-body">'+
 					   	'<h2 class="card-title" align-items-center>'+
-						htmlDoc.getElementById("title").childNodes[0].nodeValue+
+						htmlDoc.getElementById("title").childNodes[0].nodeValue+ "-"
 						'</h2>';
-		// // add subheading
-		document.getElementById('post_'+i.toString()).innerHTML += '<p class="card-text">'+
-																	htmlDoc.getElementById("subheading").childNodes[0].nodeValue+
-																	'</p>';
+		// // // add subheading
+		// document.getElementById('post_'+i.toString()).innerHTML += '<p class="card-text">'+
+		// 															htmlDoc.getElementById("subheading").childNodes[0].nodeValue+
+		// 															'</p>';
+
 
 		// add hyperlink
 		card.innerHTML += '<a href="'+
