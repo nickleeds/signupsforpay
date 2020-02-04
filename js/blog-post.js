@@ -209,8 +209,15 @@ function load_card(content,file,i) {
 		// add title
 		card.innerHTML += '<div class="card-body">'+
 					   	'<h2 class="card-title" align-items-center>'+
-						htmlDoc.getElementById("title").childNodes[0].nodeValue+ "-"
+						htmlDoc.getElementById("title").childNodes[0].nodeValue+
 						'</h2>';
+
+
+		card.innerHTML += '<div class="card-body">'+
+						'<h2 class="card-title" align-items-center>'+
+					 htmlDoc.getElementById("subheading").childNodes[0].nodeValue+
+					 '</h2>';	
+
 		// // // add subheading
 		// document.getElementById('post_'+i.toString()).innerHTML += '<p class="card-text">'+
 		// 															htmlDoc.getElementById("subheading").childNodes[0].nodeValue+
