@@ -29,10 +29,7 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1{
-  color: #fff !important;
-}
-
+h1,
 h2{
   color: #fff !important;
 }
@@ -236,7 +233,7 @@ header.masthead .site-heading .subheading {
   display: block;
   margin: 10px 0 0;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
