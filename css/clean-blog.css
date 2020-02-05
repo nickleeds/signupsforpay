@@ -29,7 +29,10 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1,
+h1{
+  color: #fff !important;
+}
+
 h2{
   color: #fff !important;
 }
