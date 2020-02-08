@@ -38,13 +38,37 @@
 		 
 
 		<style>
+
+
+			@media all and (max-width: 10000px) {
+				#Desktop-Only {
+					visibility: visible;
+					display: block;
+				}
+				#Mobile-Only {
+					visibility: hidden;
+					display: none;
+				}
+			}
+
+
+			@media screen and (max-width: 450px) {
+				#Desktop-Only {
+					visibility: hidden;
+					display: none;
+				}
+				#Mobile-Only {
+					visibility: visible;
+					display: block;
+				}
+			}
+
 			.checked {
 			  color: orange;
 			}
 			
 			
 		</style>	
-
 	</head>
 	<style type="text/css">
 		kbd {
