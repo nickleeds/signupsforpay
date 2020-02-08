@@ -155,13 +155,13 @@ p {
 }
 
 .skillset .item {
-	margin-bottom: 15px;
+	margin-bottom: 0;
 	overflow: hidden;
 }
 .level-title {
 	font-size: 16px;
 	margin-top: 0;
-	margin-bottom: 12px;
+	margin-bottom: 0;
 	font-weight: 600;
 	font-weight: 400;
 	line-height: 1.85;
@@ -208,7 +208,7 @@ p {
 .upper-row {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 2px;
+	margin-bottom: 0px;
 }
 
 .main-wrapper .time {
@@ -220,7 +220,7 @@ p {
 
 .company {
 	color: #868e96;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -242,7 +242,7 @@ p {
 	.main-wrapper .time {
 		position: static;
 		display: block;
-		margin-top: 5px;
+		margin-top: 0px;
 	}
 
 	.main-wrapper .upper-row {
