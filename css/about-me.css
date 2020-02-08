@@ -174,7 +174,21 @@ p {
 	padding-left: 0;
     padding-right: 0;
     margin-left: 0!important;
-    margin-right: 0!important;
+	margin-right: 0!important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    color: #fff;
+    text-align: center;
+	white-space: nowrap;
+	transition: width .6s ease;
+	height: 100%;
+	float: left;
+	height: 100%;
+    font-size: 12px;
+	line-height: 20px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+	box-sizing: border-box;
 }
 
 .job-title {
