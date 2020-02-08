@@ -245,7 +245,7 @@ p {
 	.skillset .level-bar {
 		display: inline-block;
 		width: 70%;
-		float: left;
+		float: right;
 		position: relative;
 		top: 1px;
 	}
