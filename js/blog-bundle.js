@@ -194,7 +194,7 @@ function load_card(content,file,i) {
 						'" alt="Card image cap"/>'; //http://placehold.it/750x300
 		// add title
 		card.innerHTML += '<div class="card-body">'+
-					   	'<a href="signupforpay.com"><h2 class="card-title" align-items-center>'+
+					   	'<a href="'+file+'"><h2 class="card-title" align-items-center>'+
 						htmlDoc.getElementById("title").childNodes[0].nodeValue+
 						'</h2></a>';
 		// // add subheading
