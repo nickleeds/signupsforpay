@@ -188,14 +188,14 @@ function load_card(content,file,i) {
 		date = date.split("_");
 
 		// add image
-		card.innerHTML += '<a href="'+file+'"> <img class="card-img-top" src="'+
+		card.innerHTML += '<img class="card-img-top" src="'+
 						image+
 						'" alt="Card image cap"/>'; //http://placehold.it/750x300
 		// add title
 		card.innerHTML += '<div class="card-body">'+
 					   	'<h2 class="card-title" align-items-center>'+
 						htmlDoc.getElementById("title").childNodes[0].nodeValue+
-						'</h2></a>';
+						'</h2>';
 		// // add subheading
 		// document.getElementById('post_'+i.toString()).innerHTML += '<p class="card-text">'+
 		// 															htmlDoc.getElementById("subheading").childNodes[0].nodeValue+
