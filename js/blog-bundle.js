@@ -189,7 +189,7 @@ function load_card(content,file,i) {
 		date = date.split("_");
 
 		// add image
-		card.innerHTML += '<a href="'+file+'" <img class="card-img-top" src="'+
+		card.innerHTML += '<a href="'+file+'"> <img class="card-img-top" src="'+
 						image+
 						'" alt="Card image cap"/>'; //http://placehold.it/750x300
 		// add title
