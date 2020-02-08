@@ -72,7 +72,7 @@
 			table {
 				margin-bottom: 0;
 			}
-			
+
 			.rating-box {
 				position:relative;
 				vertical-align: middle;
@@ -97,6 +97,22 @@
 					}
 				}
 			}
+
+			div.rating { font-family: FontAwesome; position: relative; display: inline-block; }
+			div.rating:before { content: "\f006\f006\f006\f006\f006"; color: Gray;  }
+			div.rating:after { color: Yellow; position: absolute; left: 0; }  
+
+			.r-0:before { content: "" !important; }
+			.r-05:after { content: "\f089\00a0"; }
+			.r-1:after { content: "\f005"; }
+			.r-15:after { content: "\f005\f089\00a0"; }
+			.r-2:after { content: "\f005\f005"; }
+			.r-25:after { content: "\f005\f005\f089\00a0"; }
+			.r-3:after { content: "\f005\f005\f005"; }
+			.r-35:after { content: "\f005\f005\f005\f089\00a0"; }
+			.r-4:after { content: "\f005\f005\f005\f005"; }
+			.r-45:after { content: "\f005\f005\f005\f005\f089\00a0"; }
+			.r-5:after { content: "\f005\f005\f005\f005\f005"; }
 							
 		</style>	
 	</head>
