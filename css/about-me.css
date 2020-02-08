@@ -189,6 +189,8 @@ p {
 	line-height: 20px;
 	box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
 	box-sizing: border-box;
+	list-style: none outside none!important;
+    font-weight: 400;
 }
 
 .job-title {
