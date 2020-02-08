@@ -171,6 +171,10 @@ p {
 .level-bar-inner {
 	height: 14px;
 	background: #f89406;
+	padding-left: 0;
+    padding-right: 0;
+    margin-left: 0!important;
+    margin-right: 0!important;
 }
 
 .job-title {
