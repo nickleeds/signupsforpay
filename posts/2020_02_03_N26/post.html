@@ -72,8 +72,31 @@
 			table {
 				margin-bottom: 0;
 			}
-			
-			
+			.rating-box {
+				position:relative;
+				vertical-align: middle;
+				font-size: 3/3em;
+				font-family: FontAwesome;
+				display:inline-block;
+				color: lighten(@grayLight, 25%);
+
+				&:before{
+					content: "\f006 \f006 \f006 \f006 \f006";
+				}
+
+				.rating {
+					position: absolute;
+					left:0;
+					top:0;
+					white-space:nowrap;
+					overflow:hidden;
+					color: #F68127;
+					&:before {
+					content: "\f005 \f005 \f005 \f005 \f005";
+					}
+				}
+			}
+							
 		</style>	
 	</head>
 	<style type="text/css">
@@ -221,6 +244,14 @@
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
+									</div>
+									</td>
+									</tr>
+									<!-- <th scope="row">3</th> -->
+									<td>Initial Deposit</td>
+									<td>$20</td>
+									<td><div class="rating-box">
+										<div class="rating" style="width:70%;"></div>
 									</div>
 									</td>
 									</tr>
