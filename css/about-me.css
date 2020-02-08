@@ -242,16 +242,6 @@ p {
 		margin-bottom: 0;
 	}
 
-
-	.skillset .level-attribute {
-		display: inline-block;
-		width: 20%;
-		float: left;
-		position: relative;
-		top: 1px;
-	}
-
-
 	.skillset .level-bar {
 		display: inline-block;
 		width: 50%;
