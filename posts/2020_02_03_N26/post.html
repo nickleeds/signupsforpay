@@ -1,375 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-
-		
-
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
-
-		<title>SignupForPay</title>
-
-		<!-- Custom Favicon -->
-		<link rel="apple-touch-icon" sizes="180x180" href="../../img/favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon/favicon-16x16.png">
-
-		<!-- Bootstrap core CSS -->
-		<link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-		<!-- Custom fonts for this template -->
-		<link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-		<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
-
-		<!-- jQuery CDN -->
-		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=js&amp;skin=desert"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-		<!-- Custom styles for this template -->
-		<!-- <link href="../../css/wp-content.css" rel="stylesheet"> -->
-		
-		<link href="../../css/about-me.css" rel="stylesheet">
-		<link href="../../css/clean-blog.min.css" rel="stylesheet">
-
-		 
-
-		<style>
+<head>
 
 
-			@media all and (max-width: 10000px) {
-				#Desktop-Only {
-					visibility: visible;
-					display: block;
-				}
-				#Mobile-Only {
-					visibility: hidden;
-					display: none;
-				}
-			}
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>SignupForPay</title>
+
+	<!-- Custom Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../../img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon/favicon-16x16.png">
+
+	<!-- Bootstrap core CSS -->
+	<link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom fonts for this template -->
+	<link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+		type='text/css'>
+	<link
+		href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+		rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-			@media screen and (max-width: 450px) {
-				#Desktop-Only {
-					visibility: hidden;
-					display: none;
-				}
-				#Mobile-Only {
-					visibility: visible;
-					display: block;
-				}
-			}
+	<!-- jQuery CDN -->
+	<script
+		src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=js&amp;skin=desert"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-			.checked {
-			  color: orange;
-			}
+	<!-- Custom styles for this template -->
+	<!-- <link href="../../css/wp-content.css" rel="stylesheet"> -->
 
-			table {
-				margin-bottom: 0;
-			}
+	<link href="../../css/about-me.css" rel="stylesheet">
+	<link href="../../css/clean-blog.min.css" rel="stylesheet">
 
-			.rating-box {
-				position:relative;
-				vertical-align: middle;
-				font-size: 3/3em;
-				font-family: FontAwesome;
-				display:inline-block;
-				color: lighten(@grayLight, 25%);
 
-				&:before{
-					content: "\f006 \f006 \f006 \f006 \f006";
-				}
+</head>
+<style type="text/css">
+	kbd {
+		color: #FFF;
+		background-color: lightblue;
+	}
 
-				.rating {
-					position: absolute;
-					left:0;
-					top:0;
-					white-space:nowrap;
-					overflow:hidden;
-					color: #F68127;
-					&:before {
-					content: "\f005 \f005 \f005 \f005 \f005";
-					}
-				}
-			}
-
-			div.rating { font-family: FontAwesome; position: relative; display: inline-block; }
-			div.rating:before { content: "\f006\f006\f006\f006\f006"; color: Gray;  }
-			div.rating:after { color: orange;; position: absolute; left: 0; }  
-
-			.r-0:before { content: "" !important; }
-			.r-05:after { content: "\f089\00a0"; }
-			.r-1:after { content: "\f005"; }
-			.r-15:after { content: "\f005\f089\00a0"; }
-			.r-2:after { content: "\f005\f005"; }
-			.r-25:after { content: "\f005\f005\f089\00a0"; }
-			.r-3:after { content: "\f005\f005\f005"; }
-			.r-35:after { content: "\f005\f005\f005\f089\00a0"; }
-			.r-4:after { content: "\f005\f005\f005\f005"; }
-			.r-45:after { content: "\f005\f005\f005\f005\f089\00a0"; }
-			.r-5:after { content: "\f005\f005\f005\f005\f005"; }
-							
-		</style>	
-	</head>
-	<style type="text/css">
-		kbd {
-		  color: #FFF;
-		  background-color: lightblue;
-		}
-		pre {
-			font-size: 15px;
-			tab-size: 4;
-			white-space: pre;
-			/* font-weight: 800;
+	pre {
+		font-size: 15px;
+		tab-size: 4;
+		white-space: pre;
+		/* font-weight: 800;
 		  	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;*/
-		}
-		.img-fluid {
-			margin-left: auto;
-		    margin-right: auto;
-		    display: block;
-		}
-		iframe {
-			margin-left: auto;
-		    margin-right: auto;
-		    display: block;
-		}
-	</style>
+	}
 
-	<body>
+	.img-fluid {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
 
-		<!--Navigation bar-->
-		<div id="nav-placeholder"></div>
+	iframe {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+</style>
+
+<body>
+
+	<!--Navigation bar-->
+	<div id="nav-placeholder"></div>
 
 
-		<!-- Page Header -->
-		<header class="masthead" style="background-image: url('./cover.jpg')">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-md-10 mx-auto">
-						<div class="post-heading">
-							<h1 id="title">N26 — $5 Signup Bonus</h1>
-							<h2 class="subheading" id="subheading">$10 Spend Required</h2>
-							<span class="meta">Posted by
-								<a href="#">Nick Leeds</a>
-								on February 3, 2020</span>
-							<kbd id="tag"><a href="javascript:on_tag()">Free Money</a></kbd>
-						</div>
+	<!-- Page Header -->
+	<header class="masthead" style="background-image: url('./cover.jpg')">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx-auto">
+					<div class="post-heading">
+						<h1 id="title">N26 — $5 Signup Bonus</h1>
+						<h2 class="subheading" id="subheading">$10 Spend Required</h2>
+						<span class="meta">Posted by
+							<a href="#">Nick Leeds</a>
+							on February 3, 2020</span>
+						<kbd id="tag"><a href="javascript:on_tag()">Free Money</a></kbd>
 					</div>
 				</div>
 			</div>
-		</header>
+		</div>
+	</header>
 
 
-		<!-- Post Content -->
-		<article>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-md-10 mx-auto">
-						<p>Take advantage of the <strong>N26 sign up bonus offer</strong> by signing up via SignupForPay's <a rel="noreferrer noopener" aria-label="N26 $5 referral link (opens in a new tab)" href="https://n26.com/r/nicholal7860" target="_blank" style="text-decoration: none; color: #428bca"><strong>$5 N26 account referral link</strong></a>. After doing so, you will receive a <strong>$5 welcome bonus</strong> when you spend at least $10 within 30 days of account opening. You will also receive access to your own referral bonus link after you open your account.</p>
-						<hr>
-						<h3>How To Get $5 N26 Welcome Bonus:</h3>
+	<!-- Post Content -->
+	<article>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx-auto">
+					<p>Take advantage of the <strong>N26 sign up bonus offer</strong> by signing up via SignupForPay's
+						<a rel="noreferrer noopener" aria-label="N26 $5 referral link (opens in a new tab)"
+							href="https://n26.com/r/nicholal7860" target="_blank"
+							style="text-decoration: none; color: #428bca"><strong>$5 N26 account referral
+								link</strong></a>. After doing so, you will receive a <strong>$5 welcome bonus</strong>
+						when you spend at least $10 within 30 days of account opening. You will also receive access to
+						your own referral bonus link after you open your account.</p>
+					<hr>
+					<h3>How To Get $5 N26 Welcome Bonus:</h3>
 
-						<ol>
-							<li>First, visit <a rel="noreferrer noopener" aria-label="N26 $50 referral link (opens in a new tab)" href="https://n26.com/r/nicholal7860" target="_blank" style="color: #428bca"><strong>SignupForPay's $5 N26 account referral link</strong></a> and open an account</li>
-							<li>When your debit card arrived a few days later, activate it, and deposit $20</li>
-							<li>Spend $10 with your card or connect your card to cashapp or paypal and send $10 (This will trigger the bonus)</li>
-						</ol>  
-						<hr>
-						<h3>N26 Review</h3>
+					<ol>
+						<li>First, visit <a rel="noreferrer noopener"
+								aria-label="N26 $50 referral link (opens in a new tab)"
+								href="https://n26.com/r/nicholal7860" target="_blank"
+								style="color: #428bca"><strong>SignupForPay's $5 N26 account referral link</strong></a>
+							and open an account</li>
+						<li>When your debit card arrived a few days later, activate it, and deposit $20</li>
+						<li>Spend $10 with your card or connect your card to cashapp or paypal and send $10 (This will
+							trigger the bonus)</li>
+					</ol>
+					<hr>
+					<h3>N26 Review</h3>
 
-						<img src="./hero-card.JPG" class="img-fluid" alt="N26 $5 Free Referral Sign Up Bonus">
+					<img src="./hero-card.JPG" class="img-fluid" alt="N26 $5 Free Referral Sign Up Bonus">
 
-						<hr>
-						
+					<hr>
+
 					<div style="background-color: black;">
 						<div class="row" style="color: white; padding-top: 10px"">
-							<div class="col">
-								<ul style="list-style: none outside none!important; float: left; padding-left: .75rem;">
-									<li><b><span>Our Verdict:</span></b></li>
-									<li><span class="fa fa-thumbs-up"></span><span class="hidden-xs"> Decent</span></li>
-								</ul>
-							</div>
-							<div class="col" id="Desktop-Only">
-								<ul style="list-style: none outside none!important; float: right; padding-right: .75rem;">
-									<li><b>Total Rating</b></li>
-									<li><div style="float: right;">
+								<div class=" col">
+							<ul style="list-style: none outside none!important; float: left; padding-left: .75rem;">
+								<li><b><span>Our Verdict:</span></b></li>
+								<li><span class="fa fa-thumbs-up"></span><span class="hidden-xs"> Decent</span></li>
+							</ul>
+						</div>
+						<div class="col" id="Desktop-Only">
+							<ul style="list-style: none outside none!important; float: right; padding-right: .75rem;">
+								<li><b>Total Rating</b></li>
+								<li>
+									<div style="float: right;">
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
-									</div></li>
-								</ul>
-							</div>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
+				</div>
 
-						<div class="table-responsive table-dark table-bordered table-striped" id="Desktop-Only" style="line-height: 1">
-							<table class="table table-striped" border="0">
-								<thead></thead>
-								<tbody>
-									<tr>
-									<!-- <th scope="row">1</th> -->
-									<td>Bonus Value</td>
-									<td>$5</td>
-									<td><div style="float: right;">
+				<div class="table-responsive table-dark table-bordered table-striped" id="Desktop-Only"
+					style="line-height: 1">
+					<table class="table table-striped" border="0">
+						<thead></thead>
+						<tbody>
+							<tr>
+								<!-- <th scope="row">1</th> -->
+								<td>Bonus Value</td>
+								<td>$5</td>
+								<td>
+									<div style="float: right;">
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
 									</div>
-									</td>
-									</tr>
-									<tr>
-									<!-- <th scope="row">2</th> -->
-									<td>Processing Time</td>
-									<td>~ 1 week</td>
-									<td><div style="float: right;">
+								</td>
+							</tr>
+							<tr>
+								<!-- <th scope="row">2</th> -->
+								<td>Processing Time</td>
+								<td>~ 1 week</td>
+								<td>
+									<div style="float: right;">
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
 									</div>
-									</td>
-									</tr>
-									<tr>
-									<!-- <th scope="row">3</th> -->
-									<td>Account Fees</td>
-									<td>None</td>
-									<td><div style="float: right;">
+								</td>
+							</tr>
+							<tr>
+								<!-- <th scope="row">3</th> -->
+								<td>Account Fees</td>
+								<td>None</td>
+								<td>
+									<div style="float: right;">
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star-half-full checked"></span>
 									</div>
-									</td>
-									</tr>
-									<tr>
-									<!-- <th scope="row">3</th> -->
-									<td>Initial Deposit</td>
-									<td>$20</td>
-									<td><div style="float: right;">
+								</td>
+							</tr>
+							<tr>
+								<!-- <th scope="row">3</th> -->
+								<td>Initial Deposit</td>
+								<td>$20</td>
+								<td>
+									<div style="float: right;">
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star checked"></span>
 										<span class="fa fa-star"></span>
 										<span class="fa fa-star"></span>
 									</div>
-									</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-
-
-						<div id="Mobile-Only">
-							<ul style="list-style:none; padding-left: 0;">
-								<li>
-									<div class="row">
-										<div class="col-md-6 progress_title"><span title="Bonus Value">Bonus Value</span></div>
-										<div class="col-md-6">
-											<div class="progress">
-												<div class="progress-bar progress-bar-warning" role="progressbar" title="65%"
-													aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
-													style="width: 65%; background-color: #f89406;"><span class="sr-only">Editor: 65%</span></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="row">
-										<div class="col-md-6 progress_title"><span title="Account Fees">Account Fees</span>
-										</div>
-										<div class="col-md-6">
-											<div class="progress">
-												<div class="progress-bar progress-bar-warning" role="progressbar" title="90%"
-													aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color: #f89406;">
-													<span class="sr-only">Editor: 90%</span></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="row">
-										<div class="col-md-6 progress_title"><span title="Bonus Processing Time">Bonus Processing Time</span>
-										</div>
-										<div class="col-md-6">
-											<div class="progress">
-												<div class="progress-bar progress-bar-warning" role="progressbar" title="30%"
-													aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%; background-color: #f89406;">
-													<span class="sr-only">Editor: 30%</span></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="row">
-										<div class="col-md-6 progress_title"><span title="Deposit Required">Deposit Required</span>
-										</div>
-										<div class="col-md-6">
-											<div class="progress">
-												<div class="progress-bar progress-bar-warning" role="progressbar" title="100%"
-													aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%; background-color: #f89406;">
-													<span class="sr-only">Editor: 50%</span></div>
-											</div>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-
-
-						<hr>
-						<div>
-							<a href="https://n26.com/r/nicholal7860" class="btn btn-info btn-sm btn-block" role="button" target="_blank" style="text-align: center; font-size : 75%">$5 N26 Bonus</a>
-						</div>
-
-					</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
+
+
+				<div id="Mobile-Only">
+					<ul style="list-style:none; padding-left: 0;">
+						<li>
+							<div class="row">
+								<div class="col-md-6 progress_title"><span title="Bonus Value">Bonus Value</span></div>
+								<div class="col-md-6">
+									<div class="progress">
+										<div class="progress-bar progress-bar-warning" role="progressbar" title="65%"
+											aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
+											style="width: 65%; background-color: #f89406;"><span class="sr-only">Editor:
+												65%</span></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-md-6 progress_title"><span title="Account Fees">Account Fees</span>
+								</div>
+								<div class="col-md-6">
+									<div class="progress">
+										<div class="progress-bar progress-bar-warning" role="progressbar" title="90%"
+											aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+											style="width: 90%; background-color: #f89406;">
+											<span class="sr-only">Editor: 90%</span></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-md-6 progress_title"><span title="Bonus Processing Time">Bonus
+										Processing Time</span>
+								</div>
+								<div class="col-md-6">
+									<div class="progress">
+										<div class="progress-bar progress-bar-warning" role="progressbar" title="30%"
+											aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"
+											style="width: 30%; background-color: #f89406;">
+											<span class="sr-only">Editor: 30%</span></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-md-6 progress_title"><span title="Deposit Required">Deposit
+										Required</span>
+								</div>
+								<div class="col-md-6">
+									<div class="progress">
+										<div class="progress-bar progress-bar-warning" role="progressbar" title="100%"
+											aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+											style="width: 50%; background-color: #f89406;">
+											<span class="sr-only">Editor: 50%</span></div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+
+				<hr>
+				<div>
+					<a href="https://n26.com/r/nicholal7860" class="btn btn-info btn-sm btn-block" role="button"
+						target="_blank" style="text-align: center; font-size : 75%">$5 N26 Bonus</a>
+				</div>
+
 			</div>
-		</article>
+		</div>
+		</div>
+	</article>
 
-		<hr>
+	<hr>
 
-		<!--Footer-->
-		<div id="footer-placeholder"></div>
+	<!--Footer-->
+	<div id="footer-placeholder"></div>
 
-		<!-- Header and footer scripts -->
-		<script>
-			$(function(){
-				$("#nav-placeholder").load("../../nav-post.html");
-			});
-		</script>
+	<!-- Header and footer scripts -->
+	<script>
+		$(function () {
+			$("#nav-placeholder").load("../../nav-post.html");
+		});
+	</script>
 
-		<script>
-			$(function(){
-				$("#footer-placeholder").load("../../footer.html");
-			});
-		</script>
+	<script>
+		$(function () {
+			$("#footer-placeholder").load("../../footer.html");
+		});
+	</script>
 
-		<!-- Bootstrap core JavaScript -->
-		<script src="../../vendor/jquery/jquery.min.js"></script>
-		<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script src="../../vendor/jquery/jquery.min.js"></script>
+	<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-		<!-- Custom scripts for this template -->
-		<script src="../../js/clean-blog.min.js"></script>
+	<!-- Custom scripts for this template -->
+	<script src="../../js/clean-blog.min.js"></script>
 
-		<!-- tag -->
-		<script src="../../js/blog-bundle.js"></script>
+	<!-- tag -->
+	<script src="../../js/blog-bundle.js"></script>
 
-	</body>
+</body>
 
 </html>
-
-
-
-
