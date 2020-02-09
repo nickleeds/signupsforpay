@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 	#Desktop-Only {
 		visibility: hidden;
 		display: none;
