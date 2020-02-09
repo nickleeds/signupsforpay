@@ -118,3 +118,30 @@ div.rating:after {
 .r-5:after {
 	content: "\f005\f005\f005\f005\f005";
 }
+
+
+
+kbd {
+	color: #FFF;
+	background-color: lightblue;
+}
+
+pre {
+	font-size: 15px;
+	tab-size: 4;
+	white-space: pre;
+	/* font-weight: 800;
+		  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;*/
+}
+
+.img-fluid {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+iframe {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
