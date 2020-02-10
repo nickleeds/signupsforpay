@@ -54,33 +54,3 @@ In order to use Javascript third-party pacakges, it needs to be browser compatib
 
 Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/gh-pages/LICENSE) license.
 
-
-
-
-<urlset xmlns=”http://www.sitemaps.org/schemas/sitemap/0.9“>
-    <url>
-        <loc>https://www.signupforpay.com</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_03_Binance_US/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_03_N26/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_03_Sofi_Money/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_05_Webull/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_07_NextSeed/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_07_Stash/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_07_GroundFloor/post.html</loc>
-    </url>
-</urlset>
-
