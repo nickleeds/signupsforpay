@@ -1,26 +1,150 @@
-<urlset xmlns=”http://www.sitemaps.org/schemas/sitemap/0.9“>
-    <url>
-        <loc>https://www.signupforpay.com</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_03_Binance_US/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_03_N26/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_03_Sofi_Money/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_05_Webull/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_07_NextSeed/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_07_Stash/post.html</loc>
-    </url>
-    <url>
-        <loc>https://www.signupforpay.com/posts/2020_02_07_GroundFloor/post.html</loc>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+<loc>https://www.hotgloo.com/</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/webinar</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/wireframe-guide</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/contact</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/wireframe</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/prototyping-features</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/education</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/enterprise</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/pricing</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/help</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/imprint</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/prototyping-for-beginners</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/prototypes</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/mobile-prototypes</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>
+https://www.hotgloo.com/collaborative-prototype-software
+</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/prototype-creation-tool</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/prototype-guide</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/prototype-creator</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/website-prototype</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/gui-prototype</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/clickable-prototypes</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/clickable-wireframes</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>
+https://www.hotgloo.com/collaborative-wireframe-software
+</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/collaborative-wireframing</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/gui-wireframe</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/interactive-prototypes</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/interactive-wireframes</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/mobile-wireframes</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/online-prototype-tool</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/online-wireframe-tool</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/prototype-tool</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/prototype-software</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/responsive-prototypes</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/responsive-wireframes</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/wireframe-software</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://www.hotgloo.com/wireframe-tool</loc>
+<changefreq>weekly</changefreq>
+</url>
 </urlset>
