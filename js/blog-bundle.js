@@ -8,7 +8,7 @@
 var path = require('path');
 
 // define some global variables
-var blogPerPage = 3;
+var blogPerPage = 5;
 var currPage = 1;
 var numPage;
 var month = new Map([
