@@ -3,12 +3,12 @@
 
 	<head>
 
-		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="description" content="Get paid to sign up for new account bonuses and referrals paid in money, stock, and Crypto. From bank account bonuses to brokerage account referrals.">
+		<meta name="author" content="Signup+ForPay">
 
-		<title>Signup For Pay</title>
+		<title>Signup For Pay – Get Paid to Sign Up for New Account Bonuses ...</title>
 
 		<!-- Custom Favicon -->
 		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
@@ -27,43 +27,93 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 		<!-- Custom styles for this template -->
-		<link href="css/about-me.css" rel="stylesheet">
+		<!-- <link href="css/clean-blog.min.css" rel="stylesheet"> -->
 		<link href="css/clean-blog.css" rel="stylesheet">
 
 	</head>
+	<style type="text/css">
+		kbd {
+			background-color: #0085a1;
+			/*font-size: 12px;
+			font-weight: 800;
+		  	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;*/
+		}
+	</style>
 
 	<body>
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTsy-q6ukmQbdAqvaxms-qHUvTiBxH2Xh0Uy-bG77evlVSzMHkG2qGwRl8TUNpKZzaeX9DKdzgYsObb/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+		<!--Navigation bar-->
+		<div id="nav-placeholder"></div>
 
+		<!-- Page Header -->
+		<header class="masthead" style="
+		background: rgb(12,242,93);
+		background: radial-gradient(circle, rgba(12,242,93,1) 0%, rgba(23,115,55,1) 100%);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-10 mx-auto">
+						<div class="site-heading">
+							<h1>Bonuses and More</h1>
+							<span class="subheading"><text id="dynamic-text"></text></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-<hr>
+		<!-- Main Content -->
+		<div class="container">
 
-<!--Footer-->
-<div class="col-lg-8 col-md-10 mx-auto">
-    <div id="footer-placeholder"></div>
-</div>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTsy-q6ukmQbdAqvaxms-qHUvTiBxH2Xh0Uy-bG77evlVSzMHkG2qGwRl8TUNpKZzaeX9DKdzgYsObb/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-<!-- Header and footer scripts -->
-<script>
-    $(function(){
-        $("#nav-placeholder").load("nav.html");
-    });
-</script>
+	
+		</div>
+		<!-- /.container -->
 
-<script>
-    $(function(){
-        $("#footer-placeholder").load("footer.html");
-    });
-</script>
+		<hr>
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<!--Footer-->
+		<div id="footer-placeholder"></div>
 
-<!-- Custom scripts for this template -->
-<script src="js/clean-blog.min.js"></script>
+		<!-- Header and footer scripts -->
+		<script>
+			$(function(){
+				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
 
-</body>
+		<script>
+			$(function(){
+				$("#footer-placeholder").load("footer.html");
+			});
+		</script>
+
+		<!-- Bootstrap core JavaScript -->
+		<script defer src="vendor/jquery/jquery.min.js"></script>
+		<script async src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Custom scripts for this template -->
+		<script defer src="js/clean-blog.js"></script>
+
+		<!-- dynamic typing -->
+		<script defer src ="js/typed.min.js"></script>
+		<script>
+		  $(function(){
+		    $("#dynamic-text").typed({
+		      strings: ["Free Stocks", "Free Money", "Free Points", "Free Stuff", "Free Giftcards", "Free Crypto"],
+		      typeSpeed: 250,
+		      startDelay: 10,
+		      showCursor: true,
+		      shuffle: true,
+		      loop:true
+		    });
+		  });
+		</script>
+
+		<!-- Posts -->
+		<script async src="js/blog-bundle.js"></script>
+
+	</body>
 
 </html>
