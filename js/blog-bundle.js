@@ -88,7 +88,7 @@ function init_page(){
 
 // function to find all the blog posts
 function search_blog() {
-	var files = ["2020_02_03_Binance_US", "2020_02_03_N26","2020_02_03_Sofi_Money","2020_02_05_Webull", "2020_02_07_NextSeed","2020_02_07_Stash","2020_02_07_GroundFloor", "2020_03_17_Moomoo", "2020_03_17_Nvstr", "2020_03_17_Dough", "2020_03_17_Robinhood","2020_02_11_Firstrade", "2020_02_11_Public", "2020_03_17_Crypto", "2020_03_19_eToro", "2020_03_19_M1_Finance", "2020_03_25_Chime", "2020_03_25_Varo","2020_03_22_Aspiration", "default.jpg"];
+	var files = ["2020_02_03_Binance_US", "2020_02_03_N26","2020_02_03_Sofi_Money","2020_02_05_Webull", "2020_02_07_NextSeed","2020_02_07_Stash","2020_02_07_GroundFloor", "2020_03_17_Moomoo", "2020_03_17_Nvstr", "2020_03_17_Dough", "2020_03_17_Robinhood","2020_02_11_Firstrade", "2020_02_11_Public", "2020_03_17_Crypto", "2020_03_19_eToro", "2020_03_19_M1_Finance", "2020_03_22_Aspiration","2020_03_25_Chime", "2020_03_25_Varo", "default.jpg"];
 
 	for(var i in files) {
 		if(path.extname(files[i]) === "") {
